@@ -406,7 +406,7 @@ public final class PrefsUtility {
 	}
 
 	public static boolean pref_behaviour_useinternalbrowser(final Context context, final SharedPreferences sharedPreferences) {
-		return getBoolean(R.string.pref_behaviour_useinternalbrowser_key, true, context, sharedPreferences);
+		return getBoolean(R.string.pref_behaviour_useinternalbrowser_key, false, context, sharedPreferences);
 	}
 
 	public static boolean pref_behaviour_usecustomtabs(final Context context, final SharedPreferences sharedPreferences) {

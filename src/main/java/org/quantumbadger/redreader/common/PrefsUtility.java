@@ -311,7 +311,7 @@ public final class PrefsUtility {
 	}
 
 	public static boolean pref_appearance_linkbuttons(final Context context, final SharedPreferences sharedPreferences) {
-		return getBoolean(R.string.pref_appearance_linkbuttons_key, true, context, sharedPreferences);
+		return getBoolean(R.string.pref_appearance_linkbuttons_key, false, context, sharedPreferences);
 	}
 
 	public static boolean pref_appearance_hide_android_status(final Context context, final SharedPreferences sharedPreferences) {
@@ -331,7 +331,7 @@ public final class PrefsUtility {
 	}
 
 	public static boolean pref_appearance_comments_show_floating_toolbar(final Context context, final SharedPreferences sharedPreferences) {
-		return getBoolean(R.string.pref_appearance_comments_show_floating_toolbar_key, true, context, sharedPreferences);
+		return getBoolean(R.string.pref_appearance_comments_show_floating_toolbar_key, false, context, sharedPreferences);
 	}
 
 	public static boolean pref_appearance_indentlines(final Context context, final SharedPreferences sharedPreferences) {
@@ -402,7 +402,7 @@ public final class PrefsUtility {
 	///////////////////////////////
 
 	public static boolean pref_behaviour_skiptofrontpage(final Context context, final SharedPreferences sharedPreferences) {
-		return getBoolean(R.string.pref_behaviour_skiptofrontpage_key, false, context, sharedPreferences);
+		return getBoolean(R.string.pref_behaviour_skiptofrontpage_key, true, context, sharedPreferences);
 	}
 
 	public static boolean pref_behaviour_useinternalbrowser(final Context context, final SharedPreferences sharedPreferences) {
@@ -573,7 +573,7 @@ public final class PrefsUtility {
 	}
 
 	public static CommentAction pref_behaviour_actions_comment_tap(final Context context, final SharedPreferences sharedPreferences) {
-		return CommentAction.valueOf(General.asciiUppercase(getString(R.string.pref_behaviour_actions_comment_tap_key, "collapse", context, sharedPreferences)));
+		return CommentAction.valueOf(General.asciiUppercase(getString(R.string.pref_behaviour_actions_comment_tap_key, "nothing", context, sharedPreferences)));
 	}
 
 	public static CommentAction pref_behaviour_actions_comment_longclick(final Context context, final SharedPreferences sharedPreferences) {

@@ -65,6 +65,7 @@ public final class Constants {
 					"/r/chrultrabook",
 					"/r/cloudready",
 					"/r/cybersecurity",
+					"/r/privacy",
 					"/r/homelab",
 					"/r/k12sysadmin",
 					"/r/kodi",

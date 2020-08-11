@@ -60,6 +60,7 @@ public final class Constants {
 					"/r/DataHoarder",
 					"/r/GalliumOS",
 					"/r/LineageOS",
+					"/r/nokia",
 					"/r/MiniPCs",
 					"/r/chromeos",
 					"/r/chrultrabook",
